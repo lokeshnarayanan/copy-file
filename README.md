@@ -22,7 +22,7 @@ RegisterNumber: 212222100023
 '''
 with open("text3.txt",'r') as fp:
     msg1=fp.read()
-with open("copy.txt",'w') as fp1:
+with open("copytxt",'w') as fp1:
     fp1.write(msg1)
 ```
 ### OUTPUT:
